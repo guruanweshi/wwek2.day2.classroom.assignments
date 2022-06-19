@@ -32,15 +32,15 @@ public class LeaftapsLogin {
 		createLeads.click();
 		
 		WebElement companyNameElement = driver.findElement(By.id("createLeadForm_companyName"));
-		companyNameElement.sendKeys("Apple");
+		companyNameElement.sendKeys("MI5");
 		
 		WebElement firstNameElement = driver.findElement(By.id("createLeadForm_firstName"));
-		firstNameElement.sendKeys("Guru");
+		firstNameElement.sendKeys("James");
 		
 		WebElement lastNameElement = driver.findElement(By.id("createLeadForm_lastName"));
-		lastNameElement.sendKeys("Prasad");
+		lastNameElement.sendKeys("Bond");
 		
-		WebElement submitElement = driver.findElement(By.className("smallSubmit"));
+		WebElement submitElement = driver.findElement(By.name("submitButton"));
 		submitElement.click();
 	}
 
